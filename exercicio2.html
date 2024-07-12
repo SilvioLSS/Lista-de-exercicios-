@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Box-Sizing</title>
+    <style>
+        #box1{
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            box-sizing: content-box;
+            background-color: aquamarine;
+        }
+
+        #box2{
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        Exercício 2 - Trabalhando com Box-Sizing
+    </div>
+    <div id="box2">
+        Exercício 2 - Trabalhando com Box-Sizing
+    </div>
+    <p>A box 2 permaneceu 150x150. Já a box 1 aumentou para 190x190</p>
+</body>
+</html>
